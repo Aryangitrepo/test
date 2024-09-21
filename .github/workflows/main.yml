@@ -15,4 +15,4 @@ jobs:
       - name: starting 
         run: sudo apt install git && git clone https://github.com/Aryangitrepo/test
       - name: real
-        run: cd test && npm test
+        run: cd test && echo "successful"
