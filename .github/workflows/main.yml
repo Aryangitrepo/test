@@ -13,4 +13,6 @@ jobs:
       - name: installing 
         run: sudo apt install -y npm && sudo apt install -y nodejs
       - name: starting 
-        run: npm test 
+        run: sudo apt install git && git clone https://github.com/Aryangitrepo/test
+      - name: real
+        run: cd test && npm test
