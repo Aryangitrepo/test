@@ -11,6 +11,6 @@ jobs:
 
     steps: 
       - name: installing 
-        run: apt install -y npm && apt install -y nodejs
+        run: sudo apt install -y npm && apt install -y nodejs
       - name: starting 
         run: npm test 
