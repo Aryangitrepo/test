@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start":"node index.js",
-    "test": "echo \"test was complete"\"
+   "test": "echo \"test was complete\""
   },
   "author": "",
   "license": "ISC",
